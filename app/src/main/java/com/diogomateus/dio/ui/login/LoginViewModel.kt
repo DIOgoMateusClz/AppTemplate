@@ -1,4 +1,4 @@
-package com.jailton.apptemplateproject.ui.login
+package com.diogomateus.dio.ui.login
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData

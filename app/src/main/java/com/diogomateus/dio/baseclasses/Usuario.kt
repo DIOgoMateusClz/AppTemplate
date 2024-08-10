@@ -1,4 +1,4 @@
-package com.jailton.apptemplateproject.baseclasses
+package com.diogomateus.dio.baseclasses
 
 data class Usuario(
     var key: String? = null,
