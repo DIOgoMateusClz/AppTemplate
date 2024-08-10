@@ -1,4 +1,4 @@
-package com.jailton.apptemplateproject
+package com.diogomateus.dio
 
 import org.junit.Test
 
