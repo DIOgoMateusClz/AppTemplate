@@ -25,6 +25,10 @@ import com.diogomateus.dio.MainActivity
 import com.diogomateus.dio.MainActivity.Companion.usuarioLogado
 import com.diogomateus.dio.R
 import com.diogomateus.dio.ui.usuario.CadastroUsuarioActivity
+import com.google.android.gms.auth.api.signin.GoogleSignIn
+import com.google.android.gms.auth.api.signin.GoogleSignInOptions
+import com.google.android.gms.common.api.ApiException
+import com.google.firebase.auth.GoogleAuthProvider
 
 class LoginActivity : AppCompatActivity() {
 
@@ -55,7 +59,7 @@ class LoginActivity : AppCompatActivity() {
         passwordEditText = findViewById(R.id.edit_text_password)
         loginButton = findViewById(R.id.button_login)
         registerLink = findViewById(R.id.registerLink)
-        btnGoogleSignIn = findViewById<SignInButton>(R.id.btnGoogleSignIn)
+        btnGoogleSignIn = findViewById<SignInButton>(R.id.button_login)
 
 
 
